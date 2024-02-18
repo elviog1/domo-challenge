@@ -1,0 +1,58 @@
+.bg-blue1,
+.bg-dropdown {
+  background-color: rgb(125, 125, 236) !important;
+}
+.text-blue1 {
+  color: rgb(125, 125, 236);
+}
+.bg-blue2 {
+  background-color: rgb(146, 146, 244) !important;
+}
+
+.bg-blue3 {
+  background-color: rgb(182, 182, 239) !important;
+}
+
+.bg-blue4 {
+  background-color: rgb(146, 146, 189);
+}
+.banner-link {
+  color: rgb(125, 125, 236) !important;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.banner-link:hover {
+  color: rgb(80, 80, 244) !important;
+}
+.hero {
+  height: 500px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos-1280x720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+.a {
+  width: 55px;
+  height: 55px;
+}
+.line {
+  width: 100px;
+  height: 5px;
+  background-color: white;
+}
+.btn-arrow {
+  background-color: transparent;
+  color: white;
+}
+.btn-arrow:hover {
+  color: rgb(125, 125, 236);
+}
+.card-hero {
+  flex: 1;
+  min-width: 300px;
+}
