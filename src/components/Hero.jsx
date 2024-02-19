@@ -1,4 +1,5 @@
 import CardHero from "./CardHero";
+import ServiceComponent from "./ServiceComponent";
 
 export default function Hero() {
   return (
@@ -59,6 +60,22 @@ export default function Hero() {
         <CardHero numberCard={2} bgColor={"bg-blue2"} />
         <CardHero numberCard={3} bgColor={"bg-blue3"} />
         <CardHero numberCard={4} bgColor={"bg-blue4"} />
+      </div>
+      <div>
+        <ServiceComponent
+          letter={"B"}
+          imgUrl={
+            "https://e1.pxfuel.com/desktop-wallpaper/499/890/desktop-wallpaper-beautiful-greenery-of-real-nature-scene-beautiful-nature-scenery.jpg"
+          }
+        />
+        <ServiceComponent
+          letter={"C"}
+          imgUrl={"https://i.ytimg.com/vi/lk7XNn-1-E4/mqdefault.jpg"}
+        />
+        <ServiceComponent
+          letter={"D"}
+          imgUrl={"https://i.blogs.es/d9e371/1-real/450_1000.jpeg"}
+        />
       </div>
     </div>
   );
