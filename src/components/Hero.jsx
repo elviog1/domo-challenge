@@ -51,7 +51,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="d-flex justify-content-center pt-5">
-            <button className="fs-1 btn-arrow border-0 fw-bold">⌄</button>
+            <a href="#service" className="fs-1 btn-arrow border-0 fw-bold text-decoration-none">⌄</a>
           </div>
         </div>
       </div>
