@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg">
-      <div className="container py-5">
+      <div className="container">
         <span className="fs-3 fw-semibold ">DOMO</span>
         <button
           className="navbar-toggler"

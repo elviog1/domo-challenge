@@ -1,7 +1,7 @@
 export default function ServiceComponent({ letter, imgUrl }) {
   return (
-    <div className="d-flex justify-content-center align-items-center py-5">
-      <div className="container d-flex gap-2 flex-wrap">
+    <div id="service" className="d-flex justify-content-center align-items-center py-5">
+      <div className="container d-flex gap-2 justify-content-between service-div">
         <div className="d-flex flex-column gap-4 service-description">
           <div className="d-flex gap-2 ">
             <span className="fs-2 border a border-3 border-black fw-bold text-black rounded-5 text-center ">

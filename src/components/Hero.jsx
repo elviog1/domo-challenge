@@ -3,7 +3,7 @@ import ServiceComponent from "./ServiceComponent";
 
 export default function Hero() {
   return (
-    <div>
+    <div id="home">
       <div className="hero d-flex align-items-center ">
         <div className="container ">
           <div className="d-flex flex-column gap-4 ">
