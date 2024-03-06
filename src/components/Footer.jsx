@@ -75,7 +75,7 @@ export default function Footer() {
                 </form>
                 <div className="d-flex flex-column gap-3 justify-content-around links-footer">
                   <a
-                    href=""
+                    href="mailto:elvio.galeano827@gmail.com"
                     target="__blank"
                     className="d-flex align-items-center gap-2 text-decoration-none fw-bold fs-5 text-link"
                   >
